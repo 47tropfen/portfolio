@@ -16,5 +16,17 @@
     --dark: #36213E;
     --light: #f5f5f5;
 
-    --shadow: 0 0 1rem rgba(0,0,0, .25);
+    --spacer: 1rem;
+    --spacer-md: calc(var(--spacer) *2); 
+    --spacer-lg: calc(var(--spacer) *3);
+
+    --shadow: 0 0 1rem rgba(0,0,0, .25); 
+    --br: 10px; /* border-radius */
+    --b1: 2px solid green;
+    --b2: 2px solid red;
+    --b3: 2px solid blue;
+}
+
+div {
+    border: var(--b1);
 }
