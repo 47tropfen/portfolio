@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+:root {
+    --prm-clr: #F4F4F9;
+    --sec-clr: #00BC34;
+    --accent-clr: #FF6F59;
+    --box-clr: #077c81;
+    --bg-clr: ;
+    --text-clr: #333;
+    
+    --ff-prm: 'Comic Sans MS', sans-serif;
+    --ff-sec: 'Chalkboard', sans-serif;
+
+    --fs-1: 3rem;
+    --fs-2: 1.25rem;
+    --fs-3: .8rem;
+
+    --fw-n: 300;
+    --fw-m: 600;
+    --fw-b: 800;
+
+    --spacer: 1rem;
+    --spacer-md: calc(var(--spacer)*2);
+    --spacer-lg: calc(var(--spacer)*3);
+
+    --shadow: 0 0 1rem rgba(0,0,0,.25);
+}
+
+body {
+    font-family: var(--ff-sec);
+    margin: 0;
+    background-color: var(--prm-clr);
+    color: var(--text-clr);
+    height: 100vh;
+}
+
+h1 {
+    font-size: var(--fs-1);
+    font-weight: var(--fw-b);
+    text-align: center;
+    background-color: var(--box-clr);
+    color: var(--prm-clr);
+    margin: 0;
+    padding: var(--spacer);
+}
+
+#hero-text {
+    font-size: var(--fs-2);
+    font-weight: var(--fw-m);
+    text-align: center;
+    padding-block-start: var(--spacer-md);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacer-md);
+    padding: var(--spacer-lg);
+    padding-block-start: var(--spacer-md);
+}
+
+.card {
+    box-shadow: var(--shadow);
+    border-radius: 5px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 1.5rem rgba(0,0,0,.35);
+    transition: all 0.3s ease-in-out;
+}
+
+.very-important {
+    transform: scale(1.1) ;
+    --box-clr: var(--accent-clr);
+}
+
+.very-important:hover {
+    transform: scale(1.1) translateY(-5px);
+}
+
+.card-title {
+    font-size: var(--fs-3);
+    font-weight: var(--fw-n);
+    text-align: center;
+    padding: var(--spacer) 0;
+    border-radius: 5px 5px 0 0;
+    background-color: var(--box-clr);
+    color: var(--prm-clr);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.card-price {
+    font-size: var(--fs-1);
+    color: var(--box-clr);
+}
+
+.card span {
+    font-size: var(--fs-3);
+}
+
+.card-content {
+    padding-block-end: var(--spacer-md);
+    padding-inline: var(--spacer);
+}
+
+
+p {
+    padding-block-start: var(--spacer);
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    padding-block-start: var(--spacer);
+}
+
+.btn {
+    display: inline-block;
+    padding: .5rem;
+    border-radius: 5px;
+    border: 2px solid var(--);
+    background-color: var(--box-clr);
+    color: var(--prm-clr);
+    font-weight: var(--fw-b);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-block-start: var(--spacer);
+    border: none;
+}
+
+
+
+
+
+
+
+

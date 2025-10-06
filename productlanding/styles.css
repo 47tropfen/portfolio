@@ -1,4 +1,8 @@
-/* Döner Deluxe Farbschema - wärmerer Übergang */
+/* Döner Deluxe Farbschema - wärmerer Übergang 
+
+ === erstellt mit GitHub Copilot ===
+
+*/
 :root {
     --main-red: #d7263d;
     --accent-yellow: #ffb400;
@@ -21,10 +25,6 @@ body {
     color: var(--white);
     padding: 2rem 0 1.5rem 0;
     text-align: center;
-}
-
-main {
-  
 }
 
 h1 {
