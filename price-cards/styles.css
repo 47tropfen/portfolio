@@ -8,10 +8,9 @@
     --sec-clr: #00BC34;
     --accent-clr: #FF6F59;
     --box-clr: #077c81;
-    --bg-clr: ;
     --text-clr: #333;
     
-    --ff-prm: 'Comic Sans MS', sans-serif;
+    --ff-prm: 'Verdana', sans-serif;
     --ff-sec: 'Chalkboard', sans-serif;
 
     --fs-1: 3rem;
@@ -30,7 +29,7 @@
 }
 
 body {
-    font-family: var(--ff-sec);
+    font-family: var(--ff-prm);
     margin: 0;
     background-color: var(--prm-clr);
     color: var(--text-clr);
