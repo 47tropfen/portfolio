@@ -71,6 +71,7 @@ a:hover {
     grid-template-columns: repeat(3, 1fr);
     inline-size: min(95%, 70rem);
     margin-inline: auto;
+    padding-block-start: 2rem;
 }
 
 .post:nth-child(2) {
